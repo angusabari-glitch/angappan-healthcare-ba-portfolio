@@ -1,0 +1,15 @@
+{
+  "required_pages_present": true,
+  "missing_pages": [],
+  "html_pages_found": [
+    "resume.html",
+    "skills.html",
+    "carebridge.html",
+    "contact.html",
+    "experience.html",
+    "index.html",
+    "ryvora.html"
+  ],
+  "internal_html_links": [],
+  "ryvora_live_link_expected": "https://ry-vora.vercel.app"
+}
