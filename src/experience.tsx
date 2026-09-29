@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import { ArrowRight, BriefcaseBusiness, CheckCircle2, Menu, Workflow, X } from "lucide-react";
 import "./index.css";
+import "./experience.css";
 
 const roles = [
   {
