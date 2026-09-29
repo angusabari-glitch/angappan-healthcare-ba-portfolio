@@ -24,12 +24,12 @@ const evidence = [
 function Header({onMenu}:{onMenu:()=>void}) {
  return <header className="site-header"><div className="container header-inner">
   <a className="brand" href="index.html"><span className="brand-mark">AS</span><span>Angappan Sabarimani</span></a>
-  <nav className="desktop-nav"><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="ryvora.html">RyVora</a><a href="carebridge.html">CareBridge</a><a className="active" href="skills.html">Skills</a></nav>
+  <nav className="desktop-nav"><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="ryvora.html">RyVora</a><a href="carebridge.html">CareBridge</a><a className="active" href="skills.html">Skills</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></nav>
   <button className="menu-button" onClick={onMenu}><Menu size={22}/></button>
  </div></header>
 }
 function MobileMenu({onClose}:{onClose:()=>void}) {
- return <div className="mobile-menu"><button className="mobile-close" onClick={onClose}><X size={22}/></button><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="ryvora.html">RyVora</a><a href="carebridge.html">CareBridge</a><a href="skills.html">Skills</a></div>
+ return <div className="mobile-menu"><button className="mobile-close" onClick={onClose}><X size={22}/></button><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="ryvora.html">RyVora</a><a href="carebridge.html">CareBridge</a><a href="skills.html">Skills</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></div>
 }
 function SectionTitle({label,title,copy}:{label:string;title:string;copy?:string}) {
  return <div className="section-heading"><div><p className="eyebrow">{label}</p><h2>{title}</h2></div>{copy&&<p>{copy}</p>}</div>
